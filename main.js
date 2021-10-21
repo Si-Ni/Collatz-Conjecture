@@ -17,7 +17,7 @@ var colorArray = ['#FF6633', '#FFB399', '#FF33FF', '#FFFF99', '#00B3E6',
 		  '#E64D66', '#4DB380', '#FF4D4D', '#99E6E6', '#6666FF'];
 
     for(let i = 0; i < 5; i++){
-        let random = Math.floor(Math.random() * 50) + 30;
+        let random = Math.floor(Math.random() * 1000) + 30;
         problem(random);
     }
 
